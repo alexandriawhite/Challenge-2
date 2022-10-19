@@ -1,2 +1,55 @@
-# Challenge-2
-Please review my deployed portfolio of work samples
+# Work Samples Challenge 2
+
+# Table of Contents:
+
+* Description 
+* User Story 
+* Acceptance Criteria
+* Short Bio
+* Mock-Up 
+* Links
+
+# Description
+
+Challenge 2 was to create a landing page where future employers are able to see work samples that showcase skills and talents. This project focused on our understanding of HTML and CSS and pushed us to enhance our skill sets by applying core skills recently learned: flexbox, media queries, and CSS variables.
+
+# User Story 
+```
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
+
+#  Acceptance Criteria:
+
+```
+GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+```
+
+
+# Short Bio
+
+Enthusiastic and driven, with a deep passion for software development, algorithms, and problem solving. Currently enrolled in Vanderbilt’s coding bootcamp, I am working to develop my skills as a programmer, developing certain versatility in using technologies and coding languages. 
+
+# Mock-Up
+The following animation shows the web application's appearance and functionality:
+
+![]()
+![]()
+
+# Links
+
+* URL of deployed application: 
+* URL of GitHub Repository: https://github.com/alexandriawhite/Work-Samples-Challenge-2
