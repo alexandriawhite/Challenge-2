@@ -40,8 +40,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Mock-Up
 The following animation shows the web application's appearance and functionality:
 
-![]()
-![]()
+![deployedURL](./assets/images/deployedURL.PNG)
+![deployedURL2](./assets/images/deployedURL2.PNG)
 
 ## Links
 
