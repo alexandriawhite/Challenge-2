@@ -1,199 +1,199 @@
-* {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+* /*Default value of padding and margin properties is 0, meaning any element can be changed with CSS by default have no extra spacing.*/ 
+{
+    font-family:  'Calibri', 'Trebuchet MS', 'sans-serif';
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-/* Remove native formatting from anchor tags */
-header a, 
-footer a {
+/* Removing formatting for anchor links and adding color */
+header a 
+{
     text-decoration: none;
-    color: #92CCCE;
+    color: #94cedd;
 }
-
-section h1, 
-footer h1 {
-    font-size: 50px;
-    color: #455978;
-    border-right: 3px solid #455978;
-    padding: 5px 10px;
+/*Formatting for about me, work, and contact me section*/
+section h1 {
+    font-size: 40px;
+    color: #354051;
+    border-right: 3px solid #354051;
+    padding: 10px 15px;
     text-align: right;
     width: 20%;   
 }
 
-/* Header Start */
+/* Header Section */
 
 header {
     background: #31353D;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
+    justify-content:space-between;    
 }
-
+/*Formatting for "Alexandria White" in header*/
 header h1 {
-    background: #92CCCE;
+    background: #94cedd;
     color: #31353D;
-    font-size: 50px;
-    display: inline-block;
-    padding: 5px 5px 5px 50px;
-    margin: 1.5% 0;
+    font-size: 40px;
+        padding: 5px 5px 5px 20px;
+    margin: 2.5% 0;
 }
-/* Styling for the navigation links in the header */
+/* Styling for the links in the header */
 header nav {
-    color: #92CCCE;
+    color: #94cedd;
     font-weight: lighter;
     justify-content: space-between;
     margin: 1.5% 5% 1.5% 0;
 }
-
-header nav ul, 
-footer nav ul {
+/*Formatting to turn header bullet points horizontal without bullets */
+header nav ul {
     list-style: none;
     display: flex; 
-    flex-wrap: wrap; /*test removal*/
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-content: center;
     margin: 1.5% 0 1.5% 0;
 }
-
+/*Spacing of header anchors*/
 header nav ul li {
-    border-bottom: 3px solid #92CCCE;
+    border-bottom: 3px solid #94cedd;
     font-size: 24px;
     display: inline-block; 
     padding: 5px 10px;
     margin: 10px;
 }
 
-/* Header End */
-/* Main styling for the image below the header */
+/* Hero formatting */
 .hero {
-    background: #92CCCE;
+    background: #94cedd;
     color: #31353D;
-    display: flex;
-    justify-content: right;
-    background-image: url("./received_649832055718370~2\ -\ Copy.jpg");
-    background-size: cover;
-    background-position: 20%;
+    background-image: url("../images/WIT.jpg");
+    background-size:cover;
     background-attachment: fixed;
-    height: 200px;
+    background-position:100%;
+    height: 250px;
+    width:100%;
     position: relative;
+    display: flex;
+    justify-content:right;
 }
 
-/* Position and style sub-heading */
+/* H2 formatting */
 .hero h2 {
+    background: #94cedd;
+    position: absolute;
     text-align: center;
+    bottom: 10%;
     padding: 10px;
     margin-right: 5%;
-    background: #92CCCE;
-    position: absolute;
-    bottom: 10%;
 }
-
+/*Article elements makes the page apear more blog like*/
 .content article {
     margin: 20px 0;
     width: 95%;
 }
 
-/* About me section to the left of the content */
+/* Formatting for lower about me section  */
 .about-me {
-    display: flex;
-    justify-content: space-between;
+    display:flex;   
 }
-
+/*Paragraph formatting about me section*/
 .about-me p {
-    color: #455978;
+    color: #354051;
     padding: 0 10px;
     width: 80%;
 }
-/* Work section to the left of the content */
+
+
+/* Formatting for lower work section*/
 .work {
     display: flex;
-    justify-content: space-between;
-}
-
+    }
+/*Formatting for project display*/
 .projects {
     display: flex;
-    justify-content: space-between;
-    align-content: space-evenly;
     flex-wrap: wrap;
+    align-content: space-evenly;
     width: 80%;
     padding: 0 12px;
 }
-
+/*Formatting for size of projects*/
 .project-container {
-    border: 3px solid #92CCCE;
-    flex-grow: 1;
-    width: 47%;
-    height: 150px;
-    margin: 5px 0;
     object-fit: cover;
     position: relative;
-    /*work on justifying and aligning the content to get better spacing*/
+    width: 40%;
+    height: 150px;
+    margin: 5px 0;
+    border: 3px solid #94cedd;
+    flex-grow: 2;
 }
-
+/*Formatting for project labels*/
 .project-container h3 {
     color: #31353D;
-    background: #92CCCE;
+    background: #94cedd;
     font-weight: bolder;
     padding: 5px;
     position: absolute;
     bottom: 10%;
     line-height: 1.2;
 }
-
+/*Formatting for project labels code in line 2*/
 .project-container h3 p {
-    font-size: smaller;
+    font-size:smaller;
     font-weight: lighter;
 }
-
+/*dims image to % so the hover brightness is noticable*/
 .project-container img {
-    filter: brightness(65%);
+    filter: brightness(70%); 
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: left;
 }
-/* Makes the image brighter when hovered over */
+/* Makes image brighter when hovering over it */
 .project-container img:hover {
     filter: brightness(100%);
 }
-
-.primary-project {
-    height: 300px;
-    width: 100%;
+/*Landing page formatting*/
+.project-1 {
     margin-top: 0;
+    height:500px;
+    width:1000px;
 }
 
-/* Helps get the spacing to look consistent on the smaller projects */
-.margin-right {
-    margin-right: 7px;
+/* Margin projects 2-5 */
+.margin {
+    margin: 7px;
 }
 
-.margin-left {
-    margin-left: 7px;
-}
-
+/*Footer spacing to be in line with projects */
 footer {
     display: flex;
     justify-content: space-between;
 }
-
+/* Removing formatting for anchor links and adding color */
 footer a {
-    color: #455978;
+    text-decoration: none;
+    color: #354051;
 }
-/* Styling for footer navigation links */
+/*Formatting for footer section*/
+footer h1 {
+    font-size: 40px;
+    color: #354051;
+    border-right: 3px solid #354051;
+    padding: 10px 15px;
+    text-align: right;
+    width: 20%;   
+}
+/*Location of the footer links not being on the right of the screen*/
 footer nav {
     width: 80%;
     padding: 0 10px;
     justify-content: space-between;
     margin: 1.5% 5% 1.5% 0;
 }
-
+/*Footer section formatting of text size and color*/
 footer nav li {
-    color: #455978;
-    border-bottom: 3px solid #455978;
+    color: #354051;
+    border-bottom: 3px solid #354051;
     font-size: 24px;
     font-weight: lighter;
     flex-wrap: wrap;
@@ -201,7 +201,17 @@ footer nav li {
     padding: 3px 10px;
     margin: 10px;
 }
-/* Formats for tablet sized screens */
+/*Formatting to turn header bullet points horizontal without bullets */
+footer nav ul {
+    list-style: none;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-content: center;
+    margin: 1.5% 0 1.5% 0;
+}
+
+/* Formatting for tablet sized screens */
 @media screen and (max-width: 980px){
     section h1, 
     footer h1{
@@ -209,40 +219,21 @@ footer nav li {
     }
 
 }
-/*  Formats for phone sized screens  */
+/*  Formatting for phone sized screens  */
 @media screen and (max-width: 768px){
 
     header {
         justify-content: center;
     }
-
-    header h1 {
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-    }
-
-    header nav {
-        margin: 1%;
-        justify-content: space-evenly;
-    }
-
-    .hero{
-        height: 150px;
-        justify-content: center;
-    }
-
-    .hero h2 {
-        margin: 0;
-    }
-
     section h1, footer h1{
         font-size: 32px;
     } 
 }
 /* Formats for smaller phone screens */
 @media screen and (max-width: 575px){
-
+    header {
+        justify-content: center;
+    }
     .primary-project{
         height: 150px;
     }
@@ -250,10 +241,8 @@ footer nav li {
     section h1, 
     footer h1{
         font-size: 32px;
-        width: 100%;
         text-align: left;
         border-right: none;
-        border-bottom: 3px solid;
         padding: inherit;
     }
 
@@ -262,14 +251,7 @@ footer nav li {
         padding: 5px 8px;
     }
 
-
-    .content article, 
-    footer {
-        margin: 20px;
-        width: auto;
-    }
-
-    /* Stacks content when screen is thinner */
+    /* Stacks content in columns when screen is more narrow */
     .about-me, 
     .work, 
     footer {
@@ -280,29 +262,6 @@ footer nav li {
     footer nav{
         width: 100%;
         justify-content: center;
-    }
-
-    /* Handles making the column look consistent */
-    .margin-left{
-        margin-left: 0;
-    }
-
-    .margin-right{
-        margin-right: 0;
-    }
-
-    .projects, 
-    .about-me p {
-        width: auto;
-        margin-top: 20px;
-        padding: inherit;
-    }
-
-    footer nav {
-        margin: 0;
-        width: auto;
-        padding: 0;
-
     }
     /* Changes format of footer navigation elements */
     footer nav ul {
@@ -316,5 +275,4 @@ footer nav li {
         width: fit-content;
     }
     
-
 }
