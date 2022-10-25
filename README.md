@@ -6,6 +6,7 @@
 * User Story 
 * Acceptance Criteria
 * Mock-Up 
+* Credit & Example 
 * Links
 
 ## Description
@@ -42,6 +43,10 @@ The following animation shows the web application's appearance and functionality
 
 ![deployedURL](./assets/images/deployedURL.PNG)
 ![deployedURL2](./assets/images/deployedURL2.PNG)
+
+## Credit and Example
+The following challenge came from Vanderbilt Coding Bootcamp.
+![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
 
 ## Links
 
