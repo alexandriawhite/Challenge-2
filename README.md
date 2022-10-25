@@ -46,7 +46,7 @@ The following animation shows the web application's appearance and functionality
 
 ## Credit and Example
 The following challenge came from Vanderbilt Coding Bootcamp.
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](./assets/images/02-advanced-css-homework-demo.gif)
 
 ## Links
 
