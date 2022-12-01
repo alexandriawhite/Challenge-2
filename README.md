@@ -42,7 +42,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web application's appearance and functionality:
 
 ![deployedURL](./assets/images/deployedURL.PNG)
-![deployedURL2](./assets/images/deployedURL2.PNG)
+![deployedURL2](./assets/images/updatedpart2.PNG)
 
 ## Credit and Example
 The following challenge came from Vanderbilt Coding Bootcamp. Example of desired outcome below: 
