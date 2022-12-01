@@ -1,13 +1,12 @@
-* /*Default value of padding and margin properties is 0, meaning any element can be changed with CSS by default have no extra spacing.*/ 
+* /*Padding and margin is 0 meaning any element can be changed with CSS by default have no extra spacing.*/ 
 {
     font-family:  'Calibri', 'Trebuchet MS', 'sans-serif';
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 /* Removing formatting for anchor links and adding color */
-header a 
+header  
 {
     text-decoration: none;
     color: #94cedd;
